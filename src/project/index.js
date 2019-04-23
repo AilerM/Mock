@@ -25,4 +25,9 @@ const postApi = Object.keys(routerPost).map(path => ({
 module.exports = [
     ...getApi,
     ...postApi,
+    {
+        path: '/test',
+        method: 'get',
+        data: require('./data/example_mock_api.js')
+    }
 ]
