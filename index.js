@@ -1,11 +1,11 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
-const router = jsonServer.router('data/db.json')
+const router = jsonServer.router('src/project/data/db.json')
 const middlewares = jsonServer.defaults()
 server.use(middlewares)
 
 // 第二种读取json已get返回
-const jsonDb = require('./data/db.json')
+const jsonDb = require('./src/project/data/db.json')
 server.get('/jsonDb', ((req, res) => {
     let { posts } = jsonDb
     res.send(posts)
