@@ -1,5 +1,5 @@
-const project = require('./project')
+const { getData } = require('../util')
 
 module.exports = [
-    ...project
+    ...getData('project')
 ]

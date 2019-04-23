@@ -4,7 +4,7 @@ var Mock = require('mockjs');
 module.exports = () => {
     // 使用 Mock
     var data = Mock.mock({
-        'course|20': [{
+        'course|1': [{
             // 属性 id 是一个自增数，起始值为 1，每次增 1
             'id|+1': 1000,
             course_name: '@ctitle(5,10)',
