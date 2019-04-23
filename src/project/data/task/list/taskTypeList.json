@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "rows": {
+    "list": [
+      {
+        "id": "1",
+        "task_type_name": "普通邀约"
+      },
+      {
+        "id": "2",
+        "task_type_name": "销售"
+      },
+      {
+        "id": "3",
+        "task_type_name": "售后"
+      }
+    ],
+    "total": 3
+  },
+  "success": true
+}
