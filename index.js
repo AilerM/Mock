@@ -39,5 +39,5 @@ function loadData(source, server) {
 loadData(source, server)
 
 server.listen(3000, () => {
-    console.log('JSON Server is running')
+    console.log('3000 JSON Server is running')
 })
