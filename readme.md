@@ -34,3 +34,5 @@ server.post(path, handler)
 3: router/index.js中写所有get post 路由
 4: 可以引入js 也可以直接引入json
 ```
+
+- 你想接纳这种写法，就是自己写一遍
