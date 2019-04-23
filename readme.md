@@ -27,7 +27,10 @@ module.exports = {
 server.post(path, handler)
 ```
 
-```md 使用
- 在src目录下面，按照例子project创建
-
+- 使用
+```
+1: 在src目录下面，按照例子project创建
+2: 在src/index.js中引入，需要启动路由的项目
+3: router/index.js中写所有get post 路由
+4: 可以引入js 也可以直接引入json
 ```
