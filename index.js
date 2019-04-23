@@ -1,7 +1,7 @@
 const jsonServer = require('json-server')
-const Mock = require('mockjs')
 const server = jsonServer.create()
 const middlewares = jsonServer.defaults()
+const Mock = require('mockjs')
 const source = require('./src')
 
 server.use(middlewares)
