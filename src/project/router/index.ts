@@ -4,7 +4,8 @@ Object.defineProperty(exports, '__esModule', {
 })
 const routerGet = {
   '/db': 'db.json',
-  '/userInfo': 'common/userInfo.json'
+  '/userInfo': 'common/userInfo.json',
+  '/mock': 'example_mock_api.ts'
 }
 const routerPost = {
   '/bee/taskTypeList': 'task/list/taskTypeList.json',
