@@ -1,10 +1,17 @@
 import { create, defaults } from 'json-server'
-import { loadData } from './util'
+import { loadData, choosePort } from './util'
 const server = create()
 const middlewares = defaults()
+const { MOCK_PORT } = process.env
+const defaultPort = parseInt(MOCK_PORT || '', 10) || 3000
+
 server.use(middlewares)
 loadData(server)
 
-server.listen(3000, () => {
-  console.log(`JSON Server is running at http://localhost:${3000}`)
-})
+// tslint:disable-next-line: no-floating-promises
+;(async () => {
+  const port = await choosePort(defaultPort)
+  server.listen(port, () => {
+    console.log(`JSON Server is running at http://localhost:${port}`)
+  })
+})()
