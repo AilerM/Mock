@@ -1,13 +1,17 @@
 // 用mockjs模拟生成数据
 import Mock from 'mockjs'
-
+const { Random } = Mock
 export default () => {
+
   const data = Mock.mock({
     'course|2': [{
       'id|+2': 1000,
-      course_name: '@ctitle(5,10)',
-      autor: '@cname',
+      course_name: '@cword(5,10)',
+      autor: '@cname(5,10)',
       college: '@ctitle(10)',
+      color: '@color',
+      ip: '@ip',
+      // ip: Random.ip(),
       'category_Id|1-6': 1
     }],
     'course_category|6': [{

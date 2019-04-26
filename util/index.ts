@@ -66,7 +66,6 @@ export const loadData = (server: any) => {
         }
       }
       res.send(Mock.mock(data)).end()
-      res.send(data).end()
     })
   })
 }
