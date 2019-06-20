@@ -4,6 +4,7 @@ Object.defineProperty(exports, '__esModule', {
 })
 import { getData } from '../util'
 export default [
-  ...getData('project')
+  ...getData('project'),
+  ...getData('react-bookmarks')
 ]
 module.exports = exports['default']
