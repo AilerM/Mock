@@ -185,7 +185,31 @@
             "desc": "图片无损压缩TinyPNG – Compress PNG images while preserving transparency",
             "avatar": "https://tinypng.com/images/favicon.ico",
             "link": "https://tinypng.com/",
-            "name": "TinyPNG"
+            "name": "图片无损压缩-TinyPNG"
+          },
+          {
+            "desc": "字体转化Create Your Own @font-face Kits by uploading the fonts you want to use.",
+            "avatar": "https://www.fontsquirrel.com/favicon-32x32.png?v=2",
+            "link": "https://www.fontsquirrel.com/tools/webfont-generator",
+            "name": "文字兼容转化 - Create Your Own @font-face Kits » Font Squirrel"
+          },
+          {
+            "desc": "Font2Web - Your Online Font Converter Converting .ttf and .otf to .woff, .eot and.svg",
+            "icon": "",
+            "link": "http://www.font2web.com/",
+            "name": "文字格式转换"
+          },
+          {
+            "desc": "Apowersoft Free Online Video Converter - convert AVI, MP4, MKV online",
+            "avatar": "https://cdnimg.aoscdn.com/img/favicon.png.webp?1559883449",
+            "link": "https://www.apowersoft.com/free-online-video-converter",
+            "name": "视频转化器"
+          },
+          {
+            "desc": "Convert to WebM, YouTube转WebM, 免费在线WebM视频转换器能帮助你在线AVI转WebM,",
+            "avatar": "https://cn.office-converter.com/images/favicon.ico",
+            "link": "https://cn.office-converter.com/Convert-to-WebM",
+            "name": "视频转化器 WebM"
           }
         ],
         "name": "工具"
