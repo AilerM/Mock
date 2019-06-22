@@ -253,7 +253,66 @@
             "name": "Sharp and clean symbols - GLYPHICONS"
           }
         ],
-        "name": "ICON"
+        "name": "图标"
+      },
+      {
+        "children": [
+          {
+            "desc": "站酷 (ZCOOL)，中国设计师互动平台。深耕设计领域十二年，站酷聚集了650万设计师、摄影师、插画师、艺术家、创意人，设计创意群体中具有较高的影响力与号召力。",
+            "avatar": "https://static.zcool.cn/git_z/z/site/favicon.ico?version=1561118731530",
+            "link": "https://www.zcool.com.cn/",
+            "name": "站酷 (ZCOOL)"
+          },
+          {
+            "desc": "国内最优质的图片社交软件，你可以在LOFTER随意晒图，分享生活，也可以加入摄影、时尚、同人、cosplay、女神等上万个兴趣圈子，轻松找到同好，发现生活奇遇。",
+            "icon": "",
+            "link": "http://www.lofter.com",
+            "name": "LOFTER（乐乎） - 让兴趣，更有趣"
+          },
+          {
+            "desc": "Open-source illustrations for every project you can imagine and create.",
+            "avatar": "https://glyphicons.com/favicon.ico",
+            "link": "https://undraw.co/illustrations",
+            "name": "Illustrations | unDraw"
+          },
+          {
+            "desc": "黄蜂网，精品设计素材下载，可商用设计素材下载。",
+            "icon": "",
+            "link": "https://woofeng.cn/",
+            "name": "黄蜂网"
+          },
+          {
+            "desc": "壁纸-A worldwide online photography network where over 15 million creatives discover and share incredible photos, gain global exposure, and get paid for their work and skills.",
+            "avatar": "https://web.500px.com/favicon.ico",
+            "link": "https://web.500px.com/",
+            "name": "500px"
+          },
+          {
+            "desc": "配色",
+            "icon": "",
+            "link": "http://www.peise.net/color/",
+            "name": "色彩"
+          },
+          {
+            "desc": "花瓣网,帮你收集,发现网络上你喜欢的事物.你可以用它收集灵感,保存有用的素材,计划旅行,晒晒自己想要的东西",
+            "avatar": "https://huaban.com/img/touch-icon-iphone.png",
+            "link": "https://huaban.com/aierlanm/",
+            "name": "花瓣"
+          },
+          {
+            "desc": "奇迹秀为你带来一个让你绘画天赋爆棚的地方",
+            "icon": "",
+            "link": "http://www.qijishow.com/Brand/Brand23/index.htm",
+            "name": "Silk –绘画艺术"
+          },
+          {
+            "desc": "千库网是国内设计师喜欢的图片素材库，588ku.com为设计师提供各类好看免费的png图片和素材、背景图片、背景素材、海报背景、banner背景、边框花纹素材、艺术字、主图和直通车背景等，找素材就上千库网，百万精品图片等您下载！",
+            "avatar": "https://588ku.com/favicon.ico",
+            "link": "https://588ku.com/",
+            "name": "千库网_免费png图片背景素材下载,做设计不抠图"
+          }
+        ],
+        "name": "素材"
       }
     ]
   },

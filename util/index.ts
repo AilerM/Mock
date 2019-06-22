@@ -73,12 +73,14 @@ export const loadData = (server: any) => {
 export const choosePort = async (defaultPort: number) => {
   const port = await detect(defaultPort)
   if (port === defaultPort) return port
-  const question = {
-    type: 'input',
-    name: 'shouldChangePort',
-    message: chalk.yellow(`${defaultPort}端口被占用，请重新指定端口`),
-    default: port
-  }
-  const answer: { shouldChangePort: number } = await inquirer.prompt(question)
-  return answer.shouldChangePort
+  // const question = {
+  //   type: 'input',
+  //   name: 'shouldChangePort',
+  //   message: chalk.yellow(`${defaultPort}端口被占用，请重新指定端口`),
+  //   default: port
+  // }
+
+  // const answer: { shouldChangePort: number } = await inquirer.prompt(question)
+  // return answer.shouldChangePort
+  return port
 }
